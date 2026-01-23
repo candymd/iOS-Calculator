@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1596E47E2F197EDC00D104FB /* iOS-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1596E4942F197EDE00D104FB /* iOS-CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1596E49E2F197EDE00D104FB /* iOS-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1596E47E2F197EDC00D104FB /* iOS Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1596E4942F197EDE00D104FB /* iOS CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1596E49E2F197EDE00D104FB /* iOS CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1596E4A62F197EDE00D104FB /* Exceptions for "iOS-Calculator" folder in "iOS-Calculator" target */ = {
+		1596E4B52F197F7200D104FB /* Exceptions for "iOS-Calculator" folder in "iOS Calculator" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				"Supporting Files/Info.plist",
 			);
-			target = 1596E47D2F197EDC00D104FB /* iOS-Calculator */;
+			target = 1596E47D2F197EDC00D104FB /* iOS Calculator */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		1596E4802F197EDC00D104FB /* iOS-Calculator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				1596E4A62F197EDE00D104FB /* Exceptions for "iOS-Calculator" folder in "iOS-Calculator" target */,
+				1596E4B52F197F7200D104FB /* Exceptions for "iOS-Calculator" folder in "iOS Calculator" target */,
 			);
 			path = "iOS-Calculator";
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		1596E47F2F197EDC00D104FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1596E47E2F197EDC00D104FB /* iOS-Calculator.app */,
-				1596E4942F197EDE00D104FB /* iOS-CalculatorTests.xctest */,
-				1596E49E2F197EDE00D104FB /* iOS-CalculatorUITests.xctest */,
+				1596E47E2F197EDC00D104FB /* iOS Calculator.app */,
+				1596E4942F197EDE00D104FB /* iOS CalculatorTests.xctest */,
+				1596E49E2F197EDE00D104FB /* iOS CalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1596E47D2F197EDC00D104FB /* iOS-Calculator */ = {
+		1596E47D2F197EDC00D104FB /* iOS Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1596E4A72F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS-Calculator" */;
+			buildConfigurationList = 1596E4A72F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS Calculator" */;
 			buildPhases = (
 				1596E47A2F197EDC00D104FB /* Sources */,
 				1596E47B2F197EDC00D104FB /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				1596E4802F197EDC00D104FB /* iOS-Calculator */,
 			);
-			name = "iOS-Calculator";
+			name = "iOS Calculator";
 			packageProductDependencies = (
 			);
 			productName = "iOS-Calculator";
-			productReference = 1596E47E2F197EDC00D104FB /* iOS-Calculator.app */;
+			productReference = 1596E47E2F197EDC00D104FB /* iOS Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1596E4932F197EDE00D104FB /* iOS-CalculatorTests */ = {
+		1596E4932F197EDE00D104FB /* iOS CalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1596E4AC2F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS-CalculatorTests" */;
+			buildConfigurationList = 1596E4AC2F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS CalculatorTests" */;
 			buildPhases = (
 				1596E4902F197EDE00D104FB /* Sources */,
 				1596E4912F197EDE00D104FB /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				1596E4972F197EDE00D104FB /* iOS-CalculatorTests */,
 			);
-			name = "iOS-CalculatorTests";
+			name = "iOS CalculatorTests";
 			packageProductDependencies = (
 			);
 			productName = "iOS-CalculatorTests";
-			productReference = 1596E4942F197EDE00D104FB /* iOS-CalculatorTests.xctest */;
+			productReference = 1596E4942F197EDE00D104FB /* iOS CalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1596E49D2F197EDE00D104FB /* iOS-CalculatorUITests */ = {
+		1596E49D2F197EDE00D104FB /* iOS CalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1596E4AF2F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS-CalculatorUITests" */;
+			buildConfigurationList = 1596E4AF2F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS CalculatorUITests" */;
 			buildPhases = (
 				1596E49A2F197EDE00D104FB /* Sources */,
 				1596E49B2F197EDE00D104FB /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				1596E4A12F197EDE00D104FB /* iOS-CalculatorUITests */,
 			);
-			name = "iOS-CalculatorUITests";
+			name = "iOS CalculatorUITests";
 			packageProductDependencies = (
 			);
 			productName = "iOS-CalculatorUITests";
-			productReference = 1596E49E2F197EDE00D104FB /* iOS-CalculatorUITests.xctest */;
+			productReference = 1596E49E2F197EDE00D104FB /* iOS CalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1596E4792F197EDC00D104FB /* Build configuration list for PBXProject "iOS-Calculator" */;
+			buildConfigurationList = 1596E4792F197EDC00D104FB /* Build configuration list for PBXProject "iOS Calculator" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1596E47D2F197EDC00D104FB /* iOS-Calculator */,
-				1596E4932F197EDE00D104FB /* iOS-CalculatorTests */,
-				1596E49D2F197EDE00D104FB /* iOS-CalculatorUITests */,
+				1596E47D2F197EDC00D104FB /* iOS Calculator */,
+				1596E4932F197EDE00D104FB /* iOS CalculatorTests */,
+				1596E49D2F197EDE00D104FB /* iOS CalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		1596E4962F197EDE00D104FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1596E47D2F197EDC00D104FB /* iOS-Calculator */;
+			target = 1596E47D2F197EDC00D104FB /* iOS Calculator */;
 			targetProxy = 1596E4952F197EDE00D104FB /* PBXContainerItemProxy */;
 		};
 		1596E4A02F197EDE00D104FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1596E47D2F197EDC00D104FB /* iOS-Calculator */;
+			target = 1596E47D2F197EDC00D104FB /* iOS Calculator */;
 			targetProxy = 1596E49F2F197EDE00D104FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -291,10 +291,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VWVD5N32H2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS-Calculator/Info.plist";
+				INFOPLIST_FILE = "iOS-Calculator/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +305,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.candymontero.iOS-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -323,10 +327,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VWVD5N32H2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS-Calculator/Info.plist";
+				INFOPLIST_FILE = "iOS-Calculator/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,6 +341,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.candymontero.iOS-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -399,6 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOS-Calculator/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -457,6 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOS-Calculator/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -485,7 +495,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Calculator";
 			};
 			name = Debug;
 		};
@@ -507,7 +517,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Calculator";
 			};
 			name = Release;
 		};
@@ -554,7 +564,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1596E4792F197EDC00D104FB /* Build configuration list for PBXProject "iOS-Calculator" */ = {
+		1596E4792F197EDC00D104FB /* Build configuration list for PBXProject "iOS Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1596E4AA2F197EDE00D104FB /* Debug */,
@@ -563,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1596E4A72F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS-Calculator" */ = {
+		1596E4A72F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1596E4A82F197EDE00D104FB /* Debug */,
@@ -572,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1596E4AC2F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS-CalculatorTests" */ = {
+		1596E4AC2F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS CalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1596E4AD2F197EDE00D104FB /* Debug */,
@@ -581,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1596E4AF2F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS-CalculatorUITests" */ = {
+		1596E4AF2F197EDE00D104FB /* Build configuration list for PBXNativeTarget "iOS CalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1596E4B02F197EDE00D104FB /* Debug */,
