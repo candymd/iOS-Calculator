@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6C9165AB2F32BF1000521DB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6C9165AA2F32BF0600521DB9 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1596E4952F197EDE00D104FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		1596E47E2F197EDC00D104FB /* iOS Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1596E4942F197EDE00D104FB /* iOS CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1596E49E2F197EDE00D104FB /* iOS CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9165AA2F32BF0600521DB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -92,6 +97,7 @@
 				1596E4972F197EDE00D104FB /* iOS-CalculatorTests */,
 				1596E4A12F197EDE00D104FB /* iOS-CalculatorUITests */,
 				1596E47F2F197EDC00D104FB /* Products */,
+				6C9165AA2F32BF0600521DB9 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9165AB2F32BF1000521DB9 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
