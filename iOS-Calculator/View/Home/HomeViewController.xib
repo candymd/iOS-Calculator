@@ -53,7 +53,7 @@
                                         <constraint firstAttribute="width" secondItem="O0M-An-rmv" secondAttribute="height" multiplier="1:1" id="pu7-rS-Fmc"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="DEL">
+                                    <buttonConfiguration key="configuration" style="plain" title="DEL" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="26"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -69,7 +69,7 @@
                                         <constraint firstAttribute="width" secondItem="PqP-mf-Rca" secondAttribute="height" multiplier="1:1" id="ngz-tF-tFA"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="AC">
+                                    <buttonConfiguration key="configuration" style="plain" title="AC" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -85,7 +85,7 @@
                                         <constraint firstAttribute="width" secondItem="tJ3-Sf-LHw" secondAttribute="height" multiplier="1:1" id="OWc-Yf-lCD"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="%">
+                                    <buttonConfiguration key="configuration" style="plain" title="%" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -101,7 +101,7 @@
                                         <constraint firstAttribute="width" secondItem="Npe-kO-Oex" secondAttribute="height" multiplier="1:1" id="pg0-Pp-ogx"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="÷">
+                                    <buttonConfiguration key="configuration" style="plain" title="÷" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -123,10 +123,13 @@
                                         <constraint firstAttribute="width" secondItem="42U-se-g03" secondAttribute="height" multiplier="1:1" id="OlQ-iV-EUo"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="7">
+                                    <buttonConfiguration key="configuration" style="plain" title="7" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="4P9-hg-rZ7"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWr-9t-9n0">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
@@ -136,10 +139,13 @@
                                         <constraint firstAttribute="width" secondItem="mWr-9t-9n0" secondAttribute="height" multiplier="1:1" id="lUM-OU-8PL"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="8">
+                                    <buttonConfiguration key="configuration" style="plain" title="8" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="eil-8y-fJ5"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tT-40-pgG">
                                     <rect key="frame" x="186.66666666666666" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
@@ -149,10 +155,13 @@
                                         <constraint firstAttribute="width" secondItem="7tT-40-pgG" secondAttribute="height" multiplier="1:1" id="zHq-nK-C57"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="9">
+                                    <buttonConfiguration key="configuration" style="plain" title="9" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="AAi-Nt-LRq"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSS-gK-jza">
                                     <rect key="frame" x="280" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
@@ -162,7 +171,7 @@
                                         <constraint firstAttribute="width" secondItem="YSS-gK-jza" secondAttribute="height" multiplier="1:1" id="PiW-Lb-blU"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="×">
+                                    <buttonConfiguration key="configuration" style="plain" title="×" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -184,10 +193,13 @@
                                         <constraint firstAttribute="width" secondItem="3sn-GA-nk0" secondAttribute="height" multiplier="1:1" id="ar7-Yg-jed"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="4">
+                                    <buttonConfiguration key="configuration" style="plain" title="4" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="ejU-o5-1Wx"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vic-cT-xFV">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
@@ -197,10 +209,13 @@
                                         <constraint firstAttribute="width" secondItem="vic-cT-xFV" secondAttribute="height" multiplier="1:1" id="pzF-5f-KWF"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="5">
+                                    <buttonConfiguration key="configuration" style="plain" title="5" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="Hph-kj-fUD"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYp-sx-jkQ">
                                     <rect key="frame" x="186.66666666666666" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
@@ -210,10 +225,13 @@
                                         <constraint firstAttribute="width" secondItem="eYp-sx-jkQ" secondAttribute="height" multiplier="1:1" id="kDn-m1-XlN"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="6">
+                                    <buttonConfiguration key="configuration" style="plain" title="6" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="lmz-Zg-Tfg"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qq-m9-0hN">
                                     <rect key="frame" x="280" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
@@ -223,7 +241,7 @@
                                         <constraint firstAttribute="width" secondItem="0Qq-m9-0hN" secondAttribute="height" multiplier="1:1" id="sfR-d9-U41"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="˗">
+                                    <buttonConfiguration key="configuration" style="plain" title="˗" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -245,10 +263,13 @@
                                         <constraint firstAttribute="width" secondItem="6b2-8U-Tkx" secondAttribute="height" multiplier="1:1" id="U57-Vo-3kq"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="1">
+                                    <buttonConfiguration key="configuration" style="plain" title="1" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="Rw4-2R-NF1"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goE-oA-amR">
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
@@ -258,10 +279,13 @@
                                         <constraint firstAttribute="width" secondItem="goE-oA-amR" secondAttribute="height" multiplier="1:1" id="F1a-fY-uc2"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="2">
+                                    <buttonConfiguration key="configuration" style="plain" title="2" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="0zT-23-X9I"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHd-uV-6RV">
                                     <rect key="frame" x="186.66666666666666" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
@@ -271,10 +295,13 @@
                                         <constraint firstAttribute="width" secondItem="MHd-uV-6RV" secondAttribute="height" multiplier="1:1" id="kMD-Oh-4dJ"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="3">
+                                    <buttonConfiguration key="configuration" style="plain" title="3" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="scO-cb-nYp"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEE-tI-Vah">
                                     <rect key="frame" x="280" y="0.0" width="73.333333333333314" height="73.333333333333329"/>
@@ -284,7 +311,7 @@
                                         <constraint firstAttribute="width" secondItem="jEE-tI-Vah" secondAttribute="height" multiplier="1:1" id="lVB-0r-o7D"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="+">
+                                    <buttonConfiguration key="configuration" style="plain" title="+" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -302,7 +329,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="73.333333333333329"/>
                                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="+/-">
+                                    <buttonConfiguration key="configuration" style="plain" title="+/-" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="34"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -314,10 +341,13 @@
                                     <rect key="frame" x="93.333333333333343" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
                                     <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="0">
+                                    <buttonConfiguration key="configuration" style="plain" title="0" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="34"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="eOM-95-xdx"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2q-oQ-t3N">
                                     <rect key="frame" x="186.66666666666666" y="0.0" width="73.333333333333343" height="73.333333333333329"/>
@@ -326,7 +356,7 @@
                                         <constraint firstAttribute="width" secondItem="N2q-oQ-t3N" secondAttribute="height" multiplier="1:1" id="g3s-ed-fkb"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title=",">
+                                    <buttonConfiguration key="configuration" style="plain" title="," cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -341,7 +371,7 @@
                                         <constraint firstAttribute="width" secondItem="6oY-cV-gRh" secondAttribute="height" multiplier="1:1" id="QXm-Pl-la1"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="=">
+                                    <buttonConfiguration key="configuration" style="plain" title="=" cornerStyle="capsule">
                                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="36"/>
                                         <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     </buttonConfiguration>
@@ -377,7 +407,7 @@
     </objects>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

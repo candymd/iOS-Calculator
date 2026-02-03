@@ -1,10 +1,3 @@
-//
-//  HomeViewController.swift
-//  iOS Calculator
-//
-//  Created by Candy 💗 on 15/1/26.
-//
-
 import UIKit
 
 final class HomeViewController: UIViewController {
@@ -51,45 +44,71 @@ final class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
-    @IBAction func operatorPlusMinusAction(_ sender: Any) {
+    @IBAction func operatorPlusMinusAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
     }
     
-    @IBAction func operatorEqualsAction(_ sender: Any) {
-    }
-    
-    
-    @IBAction func operatorAdditionAction(_ sender: Any) {
-    }
-    
-    
-    @IBAction func operatorSubstractionAction(_ sender: Any) {
+    @IBAction func operatorEqualsAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
     }
     
     
-    @IBAction func operatorMultiplicationAction(_ sender: Any) {
+    @IBAction func operatorAdditionAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
     }
     
     
-    @IBAction func operatorDivisionAction(_ sender: Any) {
+    @IBAction func operatorSubstractionAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
     }
     
     
-    @IBAction func operatorPercentageAction(_ sender: Any) {
+    @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
     }
     
     
-    @IBAction func allClearButtonAction(_ sender: Any) {
+    @IBAction func operatorDivisionAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
     }
     
     
-    @IBAction func deleteButtonAction(_ sender: Any) {
+    @IBAction func operatorPercentageAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
     }
     
     
-    @IBAction func periodButtonAction(_ sender: Any) {
+    @IBAction func allClearButtonAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
+    }
+    
+    
+    @IBAction func deleteButtonAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
+    }
+    
+    
+    @IBAction func periodButtonAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
+    }
+    
+    @IBAction func numberAction(_ sender: UIButton) {
+        sender.shine()
+        sender.bounce()
+        resultLabel.text = "\(sender.tag)"
+        print(sender.tag)
     }
 }
+

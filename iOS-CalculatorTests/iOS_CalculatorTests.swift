@@ -1,10 +1,3 @@
-//
-//  iOS_CalculatorTests.swift
-//  iOS-CalculatorTests
-//
-//  Created by Candy 💗 on 15/1/26.
-//
-
 import Testing
 @testable import iOS_Calculator
 

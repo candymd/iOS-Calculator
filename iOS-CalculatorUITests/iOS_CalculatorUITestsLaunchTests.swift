@@ -1,10 +1,3 @@
-//
-//  iOS_CalculatorUITestsLaunchTests.swift
-//  iOS-CalculatorUITests
-//
-//  Created by Candy 💗 on 15/1/26.
-//
-
 import XCTest
 
 final class iOS_CalculatorUITestsLaunchTests: XCTestCase {

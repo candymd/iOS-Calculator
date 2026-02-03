@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  iOS-Calculator
-//
-//  Created by Candy 💗 on 15/1/26.
-//
-
 import UIKit
 
 @UIApplicationMain
