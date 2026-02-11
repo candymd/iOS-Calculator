@@ -108,7 +108,10 @@ final class HomeViewController: UIViewController {
     
     
     @IBAction func operatorAdditionAction(_ sender: UIButton) {
-        result()
+        if operation != .none {
+            result()
+        }
+        
         isOperating = true
         operation = .addition
 
@@ -118,7 +121,10 @@ final class HomeViewController: UIViewController {
     
     
     @IBAction func operatorSubstractionAction(_ sender: UIButton) {
-        result()
+        if operation != .none {
+            result()
+        }
+        
         isOperating = true
         operation = .substraction
         
@@ -138,7 +144,10 @@ final class HomeViewController: UIViewController {
     
     
     @IBAction func operatorDivisionAction(_ sender: UIButton) {
-        result()
+        if operation != .none {
+            result()
+        }
+        
         isOperating = true
         operation = .division
         
@@ -171,6 +180,8 @@ final class HomeViewController: UIViewController {
     
     
     @IBAction func deleteButtonAction(_ sender: UIButton) {
+        clear()
+        
         sender.shine()
         sender.bounce()
     }
